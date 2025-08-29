@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Fundamentals Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>JavaScript Fundamentals Assignment</h1>
+            <p class="intro">Demonstrating variables, functions, loops, and DOM manipulation</p>
+        </header>
+        
+        <div class="grid">
+            <!-- Part 1: JavaScript Basics -->
+            <div class="card">
+                <h2>Part 1: JavaScript Basics</h2>
+                <div class="input-group">
+                    <label for="userInput">Enter a number:</label>
+                    <input type="number" id="userInput" placeholder="Enter a number">
+                </div>
+                <button id="processBtn">Process Input</button>
+                <div class="output" id="basicOutput"></div>
+            </div>
+            
+            <!-- Part 2: JavaScript Functions -->
+            <div class="card">
+                <h2>Part 2: JavaScript Functions</h2>
+                <div class="input-group">
+                    <label for="functionInput">Enter two numbers (comma separated):</label>
+                    <input type="text" id="functionInput" placeholder="e.g., 5, 3">
+                </div>
+                <div>
+                    <button id="sumBtn">Calculate Sum</button>
+                    <button id="diffBtn">Calculate Difference</button>
+                    <button id="productBtn">Calculate Product</button>
+                </div>
+                <div class="output" id="functionOutput"></div>
+            </div>
+        </div>
+        
+        <!-- Part 3: JavaScript Loops -->
+        <div class="card">
+            <h2>Part 3: JavaScript Loops</h2>
+            <div class="input-group">
+                <label for="loopInput">Enter a number for loop iterations:</label>
+                <input type="number" id="loopInput" placeholder="Enter a number">
+            </div>
+            <div>
+                <button id="forLoopBtn">Run For Loop</button>
+                <button id="whileLoopBtn">Run While Loop</button>
+                <button id="doWhileLoopBtn">Run Do-While Loop</button>
+            </div>
+            <div class="output" id="loopOutput"></div>
+        </div>
+        
+        <!-- Part 4: DOM Manipulation -->
+        <div class="card">
+            <h2>Part 4: DOM Manipulation</h2>
+            <div class="dom-section">
+                <div class="dom-panel">
+                    <h3>Change Content & Styles</h3>
+                    <button id="contentBtn">Change Content</button>
+                    <button id="styleBtn">Change Styles</button>
+                    <div class="output">
+                        <p id="contentToChange">This content will change when you click the button.</p>
+                        <div class="color-box" id="colorBox"></div>
+                    </div>
+                </div>
+                
+                <div class="dom-panel">
+                    <h3>Interactive Elements</h3>
+                    <div class="interactive-element" id="toggleElement">
+                        Click me to toggle highlight!
+                    </div>
+                    <div class="interactive-element" id="hoverElement">
+                        Hover over me to scale up!
+                    </div>
+                    <button id="addItemBtn">Add List Item</button>
+                    <div class="output">
+                        <ul id="itemList">
+                            <li class="list-item">Initial item</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            <p>JavaScript Fundamentals Assignment - Demonstrating core JavaScript concepts</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
